@@ -289,7 +289,6 @@ app.get("/admin/sort/", function (req, res) {
                         <div class="menu">
                             <a href="/" style="margin-left: 5%;">main</a>
                             <a href="/admin">admin</a>
-                            <a href="/register">register</a>
                             <a href="/log_out" style="float: right; margin-right: 5%;">logout</a>
                         </div>
                         <div class="menu2">
@@ -330,7 +329,6 @@ app.post("/admin/sort", function (req, res) {
                         <div class="menu">
                             <a href="/" style="margin-left: 5%;">main</a>
                             <a href="/admin">admin</a>
-                            <a href="/register">register</a>
                             <a href="/log_out" style="float: right; margin-right: 5%;">logout</a>
                         </div>
                         <div class="menu2">
@@ -403,7 +401,6 @@ app.get("/admin/gender", function (req, res) {
                         <div class="menu">
                             <a href="/" style="margin-left: 5%;">main</a>
                             <a href="/admin">admin</a>
-                            <a href="/register">register</a>
                             <a href="/log_out" style="float: right; margin-right: 5%;">logout</a>
                         </div>
                         <div class="menu2">
