@@ -26,14 +26,8 @@ function check(user, password) {
 }
 
 function tabelka() {
-    tabela = `<tr>
-                    <td>id: ${tab[0].id}</td>
-                    <td>user: ${tab[0].login} - ${tab[0].pass}</td>
-                    <td>uczeń: <input type="checkbox" checked onclick="return false;"></td>
-                    <td>wiek: ${tab[0].wiek}</td>
-                    <td>płeć: ${tab[0].plec}</td>
-                </tr>`
-    for (i = 1; i < tab.length; i++) {
+    tabela = `<tr><th>Users</th></tr>`
+    for (i = 0; i < tab.length; i++) {
         if (tab[i].uczen == "checked") {
             checkbox = `<input type="checkbox" checked onclick="return false;">`
         } else {
@@ -50,15 +44,9 @@ function tabelka() {
 }
 
 function gender() {
-    woman = `<tr>
-                <td>id: ${tab[0].id}</td>
-                <td>płeć: ${tab[0].plec}</td>
-            </tr>`
-    men = `<tr>
-            <td>id: ${tab[1].id}</td>
-            <td>płeć: ${tab[1].plec}</td>
-        </tr>`
-    for (i = 2; i < tab.length; i++) {
+    woman = `<tr><th>Woman</th></tr>`
+    men = `<tr><th>Men</th></tr>`
+    for (i = 0; i < tab.length; i++) {
         if (tab[i].plec == "M") {
             men += `<tr>
                         <td>id: ${tab[i].id}</td>
