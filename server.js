@@ -150,7 +150,8 @@ app.post("/register", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -235,7 +236,8 @@ app.post("/login", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -280,7 +282,8 @@ app.get("/admin/sort/", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -320,7 +323,8 @@ app.post("/admin/sort", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -392,7 +396,8 @@ app.get("/admin/gender", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -429,7 +434,8 @@ app.get("/admin/show", function (req, res) {
                     <head>
                         <meta charset="UTF-8">
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>register</title>
+                        <meta name="author" content="Mateusz Olszewski 3Ic">
+                        <title>Mateusz Olszewski 3Ic</title>
                         <link rel="stylesheet" href="/style">
                         <link rel="preconnect" href="https://fonts.gstatic.com">
                         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
