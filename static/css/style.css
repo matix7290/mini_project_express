@@ -121,3 +121,8 @@ td {
     border: 2px solid #000066;
     padding: 15px;
 }
+
+th {
+    text-align: center;
+    font-size: 20px;
+}
