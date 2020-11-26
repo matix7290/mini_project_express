@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+</head>
+
+<body>
+    <div class="menu">
+        <a href="/" style="margin-left: 5%;">main</a>
+        <a href="/register">register</a>
+        <a href="/admin">admin</a>
+        <a href="/login" style="float: right; margin-right: 5%;">login</a>
+    </div>
+
+    <h1>logowanie</h1>
+
+    <div class="form">
+        <form action="/login" method="post">
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" name="username" autocomplete="off" onchange="this.submit()" required>
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" autocomplete="off" onchange="this.submit()" required>
+            <div id="lower">
+                <button>Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

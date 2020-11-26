@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+</head>
+<body>
+    <div class="menu">
+        <a href="/" style="margin-left: 5%;">main</a>
+        <a href="/register">register</a>
+        <a href="/admin">admin</a>
+        <a href="/login" style="float: right; margin-right: 5%;">login</a>
+    </div>
+
+    <h1>rejestracja</h1>
+
+    <div class="form">
+        <form action="/register" method="post">
+            <label for="username">Nazwa użytkownika:</label>
+            <input type="text" id="username" name="username" onchange="this.submit()" autocomplete="off" required>
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" name="password" onchange="this.submit()" autocomplete="off" required>
+            <label for="age">Wiek:</label>
+            <select name="age" id="age" onchange="this.submit()" required>
+                <option value="">wybierz</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <li><label for="student">Uczeń: 
+                <input type="checkbox" id="student" name="student" value="checked" onchange="this.submit()">
+            </label></li>
+            <li><label for="sex">Płeć: 
+                <input type="radio" class="sex" name="sex" value="M" onchange="this.submit()" required>M
+                <input type="radio" class="sex" name="sex" value="K" onchange="this.submit()" required>K
+            </label></li>
+            <div id="lower">
+                <button>Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

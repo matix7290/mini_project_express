@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu {
+    background-color: #000066;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu2 {
+    background-color: sandybrown;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    color: #C0C0C0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    background: #fff;
+    border: 1px solid silver;
+    font: 16px calibri;
+    letter-spacing: -1px;
+    -webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+}
+
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #696969;
+    font-size: 16px;
+    text-shadow: 0 0 1px silver;
+}
+
+#username, #password, #age {
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border: 1px solid silver;
+    outline: 5px solid #ebebeb;
+    font-size: 22px;
+}
+
+#student, .sex {
+    display: inline;
+    float: none;
+    font-size: 11px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+[type="checkbox"], [type="radio"] {
+    vertical-align: middle;
+}
+
+#username:focus, #password:focus, #age:focus {
+    outline: 5px solid #e5f2f8;
+}
+
+#lower {
+    background: #000066;
+    width: 360px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    color: white;
+    background: #000066;
+    text-align: center;
+    border: 1px solid #000066;
+}
+
+table {
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1px;
+}
+
+td {
+    border: 2px solid #000066;
+    padding: 15px;
+}
